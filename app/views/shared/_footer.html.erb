@@ -1,34 +1,83 @@
-<%
-# BigBlueButton open source conferencing system - http://www.bigbluebutton.org/.
-# Copyright (c) 2018 BigBlueButton Inc. and by respective authors (see below).
-# This program is free software; you can redistribute it and/or modify it under the
-# terms of the GNU Lesser General Public License as published by the Free Software
-# Foundation; either version 3.0 of the License, or (at your option) any later
-# version.
-#
-# BigBlueButton is distributed in the hope that it will be useful, but WITHOUT ANY
-# WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A
-# PARTICULAR PURPOSE. See the GNU Lesser General Public License for more details.
-# You should have received a copy of the GNU Lesser General Public License along
-# with BigBlueButton; if not, see <http://www.gnu.org/licenses/>.
-%>
+<div class="container-fluid">
+  <div class="row">
 
-<footer class="footer pt-3">
-  <p class="text-center mb-1">
-    <%= t("footer.powered_by", href: link_to(t("greenlight"), "https://bigbluebutton.org/2018/07/09/greenlight-2-0/", target: "_blank", rel: "noopener")).html_safe %> <%= Greenlight::Application::VERSION %>
-    <% if legal_url.present? %>
-      <span>
-        |
-        <%= link_to(t("footer.legal"), legal_url) %>
-      </span> 
-    <% end %>
-    <% if privpolicy_url.present? %>
-      <span>
-        |
-        <%= link_to(t("footer.privpolicy"), privpolicy_url)  %>
-      </span>
-    <% end %>
-  </p>
-</footer>
+    	    <footer class="footer">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-4 m-b-30">
+					<div class="footer-title m-t-5 m-b-20 p-b-8">
+						About InstantMeetings
+					</div>	
+          <div color="#fff">
+</div>
+					<p class="white-text">
+						InstantMeetings is an online web conferencing server. You can create your own rooms to host sessions, or join others using a short and convenient link.
+					</p>
+				</div>
+        			
+				<div class="col-md-4 m-b-30">
+					<div class="footer-title m-t-5 m-b-20 p-b-8">
+						Support
+					</div>	
+					<div class="footer-links">
+            						<a href="#">
+							FAQ
+						</a>
+                        						<a href="#">
+							Compatibility List
+						</a>
+            						<a href="#">
+							Getting Started Guide
+						</a>
+
+						<a href="#">
+							Submit a Sales Ticket
+						</a>
+						<a href="#">
+							Submit a Support Ticket
+						</a>
+
+
+					</div>
+
+
+				</div>
+        	<div class="col-md-4 m-b-30">
+					<div class="footer-title m-t-5 m-b-20 p-b-8">
+						Legal
+					</div>	
+					<div class="footer-links">
+						<a href="#">
+							Terms of Use
+						</a>
+
+
+						<a href="#">
+							Privacy Policy
+						</a>
+
+            <a href="#">
+							Refund Policy
+						</a>
+            						<a href="#">
+							Security Policy
+						</a>
+            						<a href="#">
+							Terms of Service
+						</a>
+             <a href="#">
+							Acceptable Use Policy
+						</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</footer>
+	<div class="footer-bottom">
+		Powered by SMC IT Solutions 2020
+	</div>
+
+	</div>
+</div>
 
 <%= render "shared/components/cookie_warning" %>

@@ -16,26 +16,69 @@
 
 <div class="container mt-8 mb-6 text-center">
 
-  <h2 class="mb-6"><%= t("greenlight") %> <%= t("features.title") %></h2>
+  <h2 class="mb-6">InstantMeetings <%= t("features.title") %></h2>
 
   <div class="row feature-stamp">
-    <div class="col-lg-3 col-md-6">
-      <div class="feature-item">
-        <div class="stamp bg-primary"><i class="fas fa-chalkboard-teacher fa-2x"></i></div>
-        <h4 class="mt-4"><%= t("features.rooms") %></h4>
-      </div>
+    <div class="col-lg-3 col-md-2">
+        <div class="stamp bg-primary"><i class="fas fa-desktop fa-2x"></i></div>
+        <h4 class="mt-4"><%= t("features.screenshare") %></h4>
+        <p>You can broadcast your desktop for all users to see.</p>
     </div>
-    <div class="col-lg-3 col-md-6">
-      <span class="stamp bg-primary"><i class="fas fa-film fa-2x"></i></span>
-      <h4 class="mt-4"><%= t("features.recordings") %></h4>
+     <div class="col-lg-3 col-md-2">
+      <span class="stamp bg-primary"><i class="far fa-edit fa-2x"></i></span>
+      <h4 class="mt-4"><%= t("features.whiteboard") %></h4>
+      <p>The whiteboard controls let you annotate key parts of your presentation.</p>
     </div>
-    <div class="col-lg-3 col-md-6">
-      <span class="stamp bg-primary"><i class="fas fa-pencil-alt fa-2x"></i></span>
-      <h4 class="mt-4"><%= t("features.designs") %></h4>
+    <div class="col-lg-3 col-md-2">
+      <span class="stamp bg-primary"><i class="far fa-chart-bar fa-2x"></i></span>
+      <h4 class="mt-4"><%= t("features.presentation") %></h4>
+      <p>You can upload any PDF presentation or MS office document. InstantMeetings keeps everyone in sync with your current slide, zoom, pan, annotations, and mouse pointer.</p>
     </div>
-    <div class="col-lg-3 col-md-6">
-      <span class="stamp bg-primary"><i class="fas fa-door-open fa-2x"></i></span>
-      <h4 class="mt-4"><%= t("features.authentication") %></h4>
+    <div class="col-lg-3 col-md-2">
+      <span class="stamp bg-primary"><i class="fas fa-globe-africa fa-2x"></i></span>
+      <h4 class="mt-4"><%= t("features.local") %></h4>
+      <p>Hosted in South Africa for the lowest latency, best response and local data governance.</p>
     </div>
-  </div>
+
+<div class="col-lg-3 col-md-2">
+  <div class="stamp bg-primary"><i class="fas fa-video fa-2x"></i></div>
+  <h4 class="mt-4"><%= t("features.webcam") %></h4>
+  <p>Multiple users can share their webcam at the same time. There is no built-in limit on the number of simultaneously active webcams.</p>
+</div>
+<div class="col-lg-3 col-md-2">
+<span class="stamp bg-primary"><i class="fas fa-tablet-alt fa-2x"></i></span>
+<h4 class="mt-4"><%= t("features.mobile") %></h4>
+<p>Safari Mobile (default browser) on iOS version 12.2+, and the Chrome browser on Android version 6.0+</p>
+</div>
+<div class="col-lg-3 col-md-2">
+<span class="stamp bg-primary"><i class="far fa-check-square fa-2x"></i></span>
+<h4 class="mt-4"><%= t("features.polling") %></h4>
+<p>You can poll attendees anytime to increase engagement.</p>
+</div>
+<div class="col-lg-3 col-md-2">
+<span class="stamp bg-primary"><i class="fas fa-user-friends fa-2x"></i></span>
+<h4 class="mt-4"><%= t("features.breakout") %></h4>
+<p>You can group and place attendees into breakout rooms for a given number of minutes for increased collaboration.</p>
+</div>
+
+<div class="col-lg-3 col-md-2">
+  <div class="stamp bg-primary"><i class="fas fa-blind fa-2x"></i></div>
+  <h4 class="mt-4"><%= t("features.screenreader") %></h4>
+  <p>Attendees with visual disabilities can use JAWS screen reader</p>
+</div>
+<div class="col-lg-3 col-md-2">
+<span class="stamp bg-primary"><i class="far fa-closed-captioning fa-2x"></i></span>
+<h4 class="mt-4"><%= t("features.livecaptioning") %></h4>
+<p>You can enter live captions for attendees. These captions will later appear as subtitles in recordings.</p>
+</div>
+<div class="col-lg-3 col-md-2">
+      <span class="stamp bg-primary"><i class="far fa-smile-wink fa-2x"></i></span>
+    <h4 class="mt-4"><%= t("features.emoji") %></h4>
+    <p>Attendees can raise hand and use emoji icons for feedback.</p>
+</div>
+<div class="col-lg-3 col-md-2">
+      <span class="stamp bg-primary"><i class="far fa-comments fa-2x"></i></span>
+    <h4 class="mt-4"><%= t("features.chat") %></h4>
+    <p>You can interact with attendees through public and private chat.</p>
+</div>
 </div>
