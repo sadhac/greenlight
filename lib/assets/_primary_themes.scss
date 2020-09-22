@@ -50,6 +50,8 @@ a {
 .btn-outline-primary {
   border-color: $primary-color !important;
   color: $primary-color !important;
+  height: fit-content;
+
 
   &:hover {
     background: $primary-color !important;
