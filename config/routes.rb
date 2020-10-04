@@ -142,6 +142,6 @@ Rails.application.routes.draw do
       delete '/', to: 'recordings#delete', as: :delete_recording
     end
   end
-
+  get "/pages/:page" => "pages#show"
   root to: 'main#index'
 end
